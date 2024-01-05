@@ -62,7 +62,7 @@
 	NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.002				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 	NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 36
 	NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRAIN_DAMAGE_FACTOR = 0.001
-	NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 40						-- Target-generated threat threshold to allow embargo (affected by modifiers)
+	NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 200						-- Target-generated threat threshold to allow embargo (affected by modifiers)
 	NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.4			-- Balancing value to convert the naval_strike_targetting equipment stats to chances of how many airplanes managed to do successfull strike.
 	NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 2.0					-- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction.
 	NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 2				-- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction.

@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_USA_the_island_hopping_campaign"
+		texturefile = "gfx/interface/goals/usa/USA_island_hopping_campaign.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_the_island_hopping_campaign"
+		texturefile = "gfx/interface/goals/usa/USA_island_hopping_campaign.dds"
+	}
+}

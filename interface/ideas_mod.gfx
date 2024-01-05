@@ -1,0 +1,85 @@
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_usa_island_hopping"
+		texturefile = "gfx/interface/ideas/ideas_usa_island_hopping.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jap_island_hopping"
+		texturefile = "gfx/interface/ideas/ideas_jap_island_hopping.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ENG_africa_hopping0"
+		texturefile = "gfx/interface/ideas/eng/idea_ENG_africa.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ENG_med_test"
+		texturefile = "gfx/interface/ideas/ENG/idea_ENG_med_test.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_afrika_campaign"
+		texturefile = "gfx/interface/ideas/GER/GER_afrika_campaign.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GER_atlantic_wall"
+		texturefile = "gfx/interface/goals/GER/GER_festung_principle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ALLIES_pacific_war_1"
+		texturefile = "gfx/interface/ideas/USA/ALLIES_pacific_war_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ALLIES_pacific_war_2"
+		texturefile = "gfx/interface/ideas/USA/ALLIES_pacific_war_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ALLIES_pacific_war_3"
+		texturefile = "gfx/interface/ideas/USA/ALLIES_pacific_war_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ALLIES_pacific_war_4"
+		texturefile = "gfx/interface/ideas/USA/ALLIES_pacific_war_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ALLIES_pacific_war_5"
+		texturefile = "gfx/interface/ideas/USA/ALLIES_pacific_war_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_atlantic_wall_1"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_atlantic_wall_2"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_atlantic_wall_3"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_atlantic_wall_4"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_atlantic_wall_5"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_atlantic_wall_6"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_atlantic_wall_7"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_atlantic_wall_8"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.tga"
+	}
+}
+	
+
+
+	
