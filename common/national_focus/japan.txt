@@ -1586,6 +1586,26 @@
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
+			create_wargoal = {
+				target = USA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = ENG
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = RAJ
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = CAN
+				type = annex_everything
+				expire = 0
+			}
 			if = {
 				limit = {
 					NOT = { has_wargoal_against = INS }
