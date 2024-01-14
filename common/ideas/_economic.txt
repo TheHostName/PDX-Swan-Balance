@@ -15,8 +15,8 @@ ideas = {
 			modifier = {
 				consumer_goods_expected_value = 0.50
 				production_speed_industrial_complex_factor = -0.4
-				production_speed_arms_factory_factor = -0.5
-				production_speed_dockyard_factor = -0.5
+				production_speed_arms_factory_factor = -0.75
+				production_speed_dockyard_factor = -0.75
 				conversion_cost_civ_to_mil_factor = 0.5
 				conversion_cost_mil_to_civ_factor = 0.5
 				generate_wargoal_tension = 1.00
@@ -35,14 +35,13 @@ ideas = {
 						original_tag = USA
 					}
 					OR = {
-						has_war_support > 0.5
+
 						has_war = yes
 						has_completed_focus = USA_limited_intervention
 					}
 				}
 				ELSE = {
 					OR = {
-						has_war_support > 0.5
 						has_war = yes
 					}
 				}

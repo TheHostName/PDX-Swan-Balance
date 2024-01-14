@@ -1,0 +1,30 @@
+ideas = {
+
+	country = {
+
+		state_shintoism = {
+
+			name = state_shintoism
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			
+			removal_cost = -1
+	
+
+			modifier = {
+				political_power_factor = 0.1
+				industry_air_damage_factor = -0.1
+				army_morale_factor = 0.1
+				global_building_slots_factor = 0.30
+			}
+		}
+	}
+}	
