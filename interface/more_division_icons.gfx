@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = { name = "GFX_div_templ_80_large" textureFile = "gfx/interface/counters/division_templates_large/custom_template_80.tga" }
+	spriteType = { name = "GFX_div_templ_80_small" textureFile = "gfx/interface/counters/division_templates_small/custom_template_80.tga" }
+	spriteType = { name = "GFX_div_templ_81_large" textureFile = "gfx/interface/counters/division_templates_large/custom_template_82.dds" }
+	spriteType = { name = "GFX_div_templ_81_small" textureFile = "gfx/interface/counters/division_templates_small/custom_template_82.tga" }
+	spriteType = { name = "GFX_div_templ_82_large" textureFile = "gfx/interface/counters/division_templates_large/custom_template_83.dds" }
+	spriteType = { name = "GFX_div_templ_82_small" textureFile = "gfx/interface/counters/division_templates_small/custom_template_83.tga" }
+	spriteType = { name = "GFX_div_templ_83_large" textureFile = "gfx/interface/counters/division_templates_large/custom_template_84.dds" }
+	spriteType = { name = "GFX_div_templ_83_small" textureFile = "gfx/interface/counters/division_templates_small/custom_template_84.tga" }
+}
