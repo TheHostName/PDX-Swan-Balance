@@ -212,7 +212,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4135;13228;impassable;-1;-1;-1;-1;-1;;
 4135;10094;impassable;-1;-1;-1;-1;-1;;
 4135;7153;impassable;-1;-1;-1;-1;-1;;
--1;-1;;-1;-1;-1;-1;-1;-1;
 12789;4318;impassable;-1;-1;-1;-1;-1;;
 12789;4996;impassable;-1;-1;-1;-1;-1;;
 12898;4996;impassable;-1;-1;-1;-1;-1;;
@@ -221,7 +220,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10863;10920;impassable;-1;-1;-1;-1;-1;;
 10863;12363;impassable;-1;-1;-1;-1;-1;;
 10863;4210;impassable;-1;-1;-1;-1;-1;;
-7676;4210;impassable;-1;-1;-1;-1;-1;;
+7976;4210;impassable;-1;-1;-1;-1;-1;;
 5009;4210;impassable;-1;-1;-1;-1;-1;;
 10413;4210;impassable;-1;-1;-1;-1;-1;;
 10413;7400;impassable;-1;-1;-1;-1;-1;;
@@ -232,3 +231,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5042;1970;impassable;-1;-1;-1;-1;-1;;
 5042;8112;impassable;-1;-1;-1;-1;-1;;
 5042;4973;impassable;-1;-1;-1;-1;-1;;
+-1;-1;;-1;-1;-1;-1;-1;-1;

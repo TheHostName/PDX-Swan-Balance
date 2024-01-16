@@ -522,8 +522,8 @@ kempeitai_occupation = {
 	}
 	
 	state_modifier = {		
-		resistance_target 				= -0.30
-		compliance_gain 				= 0.005
+		resistance_target 				= -0.225
+		compliance_gain 				= 0.000
 		required_garrison_factor 		= 0.5
 		resistance_damage_to_garrison 	= 0.45 
 		local_resources 				= 0.15
