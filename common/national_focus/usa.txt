@@ -2352,6 +2352,7 @@ focus_tree = {
 			}
 		}
 		complete_tooltip = {
+			add_idea = usa_rearmament
 			add_ideas = usa_rearmament
 			navy_experience = 50
 			army_experience = 50
@@ -2369,6 +2370,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
+			add_ideas = usa_rearmament
 			add_idea = usa_rearmament
 			navy_experience = 50
 			army_experience = 50
@@ -2474,6 +2476,7 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = usa_rearmament
+			remove_idea = usa_rearmament
 			add_ideas = partial_economic_mobilisation
 			if = {
 				limit = {
