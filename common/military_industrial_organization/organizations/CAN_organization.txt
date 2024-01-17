@@ -28,21 +28,197 @@ CAN_vickers_armstrong_can_organization = {
  
 #####################
 
-CAN_kingston_shipbuilding_organization = {
-	name = CAN_kingston_shipbuilding_organization
+CAN_harland_wolff_organization = {
 	include = generic_task_force_ship_organization
-	icon = GFX_idea_kingston_shipbuilding
-	allowed = {
-		original_TAG = CAN
+	icon = GFX_idea_harland_wolff
+	
+	allowed = {	
+		tag = CAN
+		has_dlc = "Arms Against Tyranny"
+	}
+
+	override_trait = {
+		token = generic_mio_trait_underway_replenishment_equipment
+
+		position = { x=1 y=0 }
+		relative_position_id = generic_mio_trait_transom_stern
+	}
+
+	add_trait = { 
+		token = CAN_mio_trait_flared_bow
+		name = CAN_mio_trait_flared_bow
+		icon = GFX_generic_mio_department_icon_ship_general_quality
+		special_trait_background = yes
+
+		position = { x=1 y=0 }
+		relative_position_id = generic_mio_trait_underway_replenishment_equipment
+
+		any_parent = { generic_mio_trait_splinter_protection }
+
+		equipment_bonus = {
+			naval_weather_penalty_factor = -0.1
+		}
+	}
+
+	add_trait = { 
+		token = generic_mio_trait_semi_armor_piercing_shells
+		name = generic_mio_trait_semi_armor_piercing_shells
+		icon = GFX_generic_mio_trait_icon_lg_attack
+		special_trait_background = yes
+
+		any_parent = { generic_mio_trait_secondary_fire_director_control }
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_secondary_fire_director_control
+
+		equipment_bonus = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 	}
 }
 
-CAN_halifax_shipyard_organization = {
-	name = CAN_halifax_shipyard_organization
+
+CAN_cammell_laird_organization = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_cammell_laird
+	
+	allowed = {	
+		tag = CAN
+		has_dlc = "Arms Against Tyranny"
+	}
+
+	override_trait = {
+		token = generic_mio_trait_advanced_armor_design
+
+		position = { x=1 y=0 }
+		relative_position_id = generic_mio_trait_advanced_hydrodynamic_design
+	}
+
+	add_trait = { 
+		token = CAN_mio_trait_flared_bow
+		name = CAN_mio_trait_flared_bow
+		icon = GFX_generic_mio_department_icon_ship_general_quality
+		special_trait_background = yes
+
+		position = { x=1 y=0 }
+		relative_position_id = generic_mio_trait_advanced_armor_design
+
+		any_parent = { generic_mio_trait_hardened_critical_components}
+		
+		equipment_bonus = {
+			naval_weather_penalty_factor = -0.1
+		}
+	}
+
+	add_trait = { 
+		token = CAN_mio_trait_super_charges
+		name = CAN_mio_trait_super_charges
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_weapons
+		special_trait_background = yes
+
+		position = { x=0 y=2 }
+		relative_position_id = generic_mio_trait_semi_armor_piercing_shells
+
+		any_parent = { generic_mio_trait_super_heavy_shells generic_mio_trait_semi_armor_piercing_shells generic_mio_trait_high_velocity_guns }
+
+		limit_to_equipment_type = { capital_ship }
+
+		equipment_bonus = {
+			hg_armor_piercing = 0.05
+			lg_armor_piercing = 0.05
+		}
+	}
+}
+
+CAN_yarrow_shipbuilders_organization = {
 	include = generic_escort_ship_organization
-	icon = GFX_idea_halifax_shipyard
-	allowed = {
-		original_TAG = CAN
+	icon = GFX_idea_yarrow_shipbuilders
+	
+	allowed = {	
+		OR = {
+			tag = CAN 
+			AND = {
+				tag = BUL
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+	}
+	
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = CAN } }
+			}
+			FROM = { NOT = { has_war_with = CAN } }
+		}
+
+		IF = {
+			limit = { FROM = { original_tag = BUL } }
+			custom_trigger_tooltip = {
+				tooltip = has_invited_mio_tt
+				FROM = {
+					has_country_flag = has_invited_yarrow_mio_flag 
+				}
+			}
+			FROM = {
+				OR = {
+					is_subject = no
+					is_subject_of = CAN
+				}
+				#is_in_faction_with = CAN
+				NOT = { has_completed_focus = BUL_nationalization }
+			}
+		}
+	}
+}
+
+CAN_john_brown_organization = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_john_brown_company
+	
+	allowed = {	
+		OR = {
+			tag = CAN
+			AND = {
+				tag = BUL #This one is an additional option for Bulgaria with AAT 
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			AND = {
+				tag = ETH 
+				has_dlc = "By Blood Alone"
+			}
+		}
+	}
+
+	visible = {
+		IF = {
+			limit = { FROM = { original_tag = ETH } }
+			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
+		}
+	}
+	
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = CAN } }
+			}
+			FROM = { NOT = { has_war_with = CAN } }
+		}
+
+		IF = {
+			limit = {
+				FROM = { NOT  = { original_tag = CAN } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = has_invited_mio_tt
+				FROM = {
+					has_country_flag = has_invited_CAN_john_brown_organization_flag
+				}
+			}
+		}
 	}
 }
 
