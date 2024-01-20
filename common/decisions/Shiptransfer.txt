@@ -5,9 +5,9 @@ MTG_naval_treaties = {
 			
 	
 		available = {
-			OR = {
+			tag = ENG
 			date = 1936.1.1
-			}
+			
 		}
 	
 		cost = 0
@@ -142,9 +142,9 @@ MTG_naval_treaties = {
 			
 	
 		available = {
-			OR = {
+			tag = ENG
 			date = 1936.1.1
-			}
+			
 		}
 	
 		cost = 0
