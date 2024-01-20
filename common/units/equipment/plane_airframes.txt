@@ -133,6 +133,10 @@ equipments = {
 			module = drop_tanks
 			count < 2
 		}
+		module_count_limit = {
+			module = fuel_tanks_small
+			count < 3
+		}
 
 		module_count_limit = {
 			module = dive_brakes_small
@@ -790,7 +794,11 @@ equipments = {
 			module = drop_tanks
 			count < 2
 		}
-
+		
+		module_count_limit = {
+			module = fuel_tanks_small
+			count < 3
+		}
 		module_count_limit = {
 			module = dive_brakes_small
 			count < 2
