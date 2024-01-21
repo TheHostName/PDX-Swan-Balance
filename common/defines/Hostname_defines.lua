@@ -126,6 +126,25 @@ NDefines.NMilitary.COMBAT_SUPPLY_LACK_DEFENDER_ATTACK = -0.60     -- attack comb
 NDefines.NMilitary.COMBAT_SUPPLY_LACK_DEFENDER_DEFEND = -0.35    -- defend combat penalty for defender if out of supply
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.4           -- large river crossing
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.25                 -- small river crossing
+NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 5
+NDefines.NMilitary.UNIT_EXP_LEVELS = {0.02, 0.04, 0.06, 0.08, 0.1, 0.14, 0.18, 0.22, 0.26, 0.3, 0.39, 0.48, 0.57, 0.66, 0.75, 0.78, 0.81, 0.84, 0.87, 0.9}
+NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 5
+NDefines.NMilitary.TRAINING_MAX_LEVEL = 10
+
+NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 999 -- Max army experience a country can store
+NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 999 -- Max navy experience a country can store
+NDefines.NMilitary.MAX_AIR_EXPERIENCE = 999  -- Max air experience a country can store
+
+NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.03
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 32
+NDefines.NMilitary.RECON_SKILL_IMPACT = 6
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 8 -- Base cost to unlock a regiment slot
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 4 -- Base cost to change a regiment column.
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 7
+
+NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.7
+NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.000175
+NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 12
 -- Air
 
 NDefines.NAir.AIR_WING_XP_LEVELS = {20, 40, 60, 80, 100, 140, 180, 220, 260, 300, 390, 480, 570, 660, 750, 780, 810, 840, 870, 900}
@@ -169,22 +188,12 @@ NDefines.NNavy.TRAINING_ACCIDENT_STRENGTH_LOSS = 0							-- Amount of strength l
 NDefines.NNavy.TRAINING_ACCIDENT_STRENGTH_LOSS_FACTOR = 0						-- Amount of strength loss in a training accident, propotional to the maximum strength of the ship
 NDefines.NNavy.TRAINING_ACCIDENT_ORG_LOSS_FACTOR = 0						-- Amount of current organization the ship lose
 
-NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 5
-NDefines.NMilitary.UNIT_EXP_LEVELS = {0.02, 0.04, 0.06, 0.08, 0.1, 0.14, 0.18, 0.22, 0.26, 0.3, 0.39, 0.48, 0.57, 0.66, 0.75, 0.78, 0.81, 0.84, 0.87, 0.9}
-NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 5
-NDefines.NMilitary.TRAINING_MAX_LEVEL = 10
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_TARGET_SCORE = 10                             -- scoring for target picking for planes inside naval combat, one define per ship typ
+NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 50
+NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 200
+NDefines.NNavy.NAVAL_COMBAT_AIR_CONVOY_TARGET_SCORE = 1.0
+NDefines.NNavy.NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE = 5                         -- how much score factor from low health (scales between 0->this number)
+NDefines.NNavy.NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 5                           -- how much score factor from low AA guns (scales between 0->this number)
 
-NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 999 -- Max army experience a country can store
-NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 999 -- Max navy experience a country can store
-NDefines.NMilitary.MAX_AIR_EXPERIENCE = 999  -- Max air experience a country can store
 
-NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.03
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 32
-NDefines.NMilitary.RECON_SKILL_IMPACT = 6
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 8 -- Base cost to unlock a regiment slot
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 4 -- Base cost to change a regiment column.
-NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 7
 
-NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.7
-NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.000175
-NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 12
