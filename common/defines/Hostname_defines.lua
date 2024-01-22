@@ -159,13 +159,14 @@ NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 9999 -- Used to balance the damage done
 NDefines.NAir.AIR_WING_XP_LOSS_REDUCTION_OVER_FRIENDLY_TERRITORY_FACTOR = 0.7
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 1	
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.8							-- Higher value = more shot down planes ; 1.0 is base game value
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 5					-- same as above but used inside naval combat for carrier battles
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRAIN_DAMAGE_FACTOR = 0.00
 NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.4			-- Balancing value to convert the naval_strike_targetting equipment stats to chances of how many airplanes managed to do successfull strike.
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 2.0					-- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction.
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 2				-- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction.
-NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 5             -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
-NDefines.NAir.NAVAL_STRIKE_BASE_STR_TO_PLANES_RATIO = 0.1		-- Max airbombers to do port strike comparing to strength
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.1		-- Max planes that can join a combat comparing to the total strength of the ships
+NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 2.5             -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+NDefines.NAir.NAVAL_STRIKE_BASE_STR_TO_PLANES_RATIO = 0.2		-- Max airbombers to do port strike comparing to strength
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.2		-- Max planes that can join a combat comparing to the total strength of the ships
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.3 -- max extra plane % that can join every day
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 20			-- Min cap for planes that can join naval combat
 -- Navy
@@ -174,7 +175,7 @@ NDefines.NNavy.CARRIER_STACK_PENALTY = 4										-- The most efficient is 4 car
 NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.2								-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.05									-- base chance for hit
 NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.01									-- never less hit chance then this?
-NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.45								-- casting damage value to ship strength multiplier. Use it ot balance the game difficulty.
+NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.50								-- casting damage value to ship strength multiplier. Use it ot balance the game difficulty.
 NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 0.25							-- casting damage value to ship organisation multiplier. Use it to balance the game difficulty.
 NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 0							-- hours from start of combat when carriers get to fight
 NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 6                         -- hours from start of combat when only carriers, capitals and subs get to attack
@@ -187,13 +188,16 @@ NDefines.NNavy.TRAINING_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 0				-- Scale the v
 NDefines.NNavy.TRAINING_ACCIDENT_STRENGTH_LOSS = 0							-- Amount of strength loss in a training accident
 NDefines.NNavy.TRAINING_ACCIDENT_STRENGTH_LOSS_FACTOR = 0						-- Amount of strength loss in a training accident, propotional to the maximum strength of the ship
 NDefines.NNavy.TRAINING_ACCIDENT_ORG_LOSS_FACTOR = 0						-- Amount of current organization the ship lose
+NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.16 							-- capitals / screens ratio used for creating FEX groups in naval combat
 
-NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_TARGET_SCORE = 10                             -- scoring for target picking for planes inside naval combat, one define per ship typ
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_TARGET_SCORE = 5                             -- scoring for target picking for planes inside naval combat, one define per ship typ
 NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE = 50
-NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 200
+NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 50
 NDefines.NNavy.NAVAL_COMBAT_AIR_CONVOY_TARGET_SCORE = 1.0
 NDefines.NNavy.NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE = 5                         -- how much score factor from low health (scales between 0->this number)
 NDefines.NNavy.NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 5                           -- how much score factor from low AA guns (scales between 0->this number)
+NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 100							-- cost to unassign/replace pride of the fleet
+NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.16 							-- capitals / screens ratio used for creating FEX groups in naval combat
 
 
 
