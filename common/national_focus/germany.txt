@@ -3311,6 +3311,7 @@ focus_tree = {
 		prerequisite = { focus = GER_rhineland }
 		available_if_capitulated = no
 		available = {
+			date > 1937.1.1
 			is_subject = no
 			has_army_manpower = { size > 499999 }
 
@@ -4092,6 +4093,7 @@ focus_tree = {
 		will_lead_to_war_with = CZE
 		will_lead_to_war_with = FRA
 		available = {
+			date > 1938.1.1
 			is_subject = no
 			has_army_manpower = { size > 724999 } #80 div		
 			NOT = {
