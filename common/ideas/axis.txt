@@ -26,5 +26,25 @@ ideas = {
 				global_building_slots_factor = 0.30
 			}
 		}
+		JAP_reduced_grinding = {	 
+
+			name = JAP_JAP_reduced_grinding
+
+			allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            removal_cost = -1
+
+            picture = jap_intervene_in_china
+
+			modifier = {
+				experience_gain_army_factor = -0.5
+			}
+		}
 	}
 }	

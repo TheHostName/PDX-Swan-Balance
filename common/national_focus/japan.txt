@@ -1192,6 +1192,20 @@
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
+			every_country = {
+				limit = {
+					OR = {
+						tag = JAP
+					}
+				}
+					every_army_leader = {
+						add_unit_leader_trait = jap_grinding
+					}
+			}
+			add_timed_idea = {
+				idea = JAP_reduced_grinding
+				days = 730
+			}
 			if = {
 				limit = {
 					CHI = { #if CHI owns one of these states, they get the event
@@ -1586,6 +1600,30 @@
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
+			JAP = {
+				if = {
+					limit = { 
+						any_army_leader = {
+							has_trait = jap_grinding
+						} 
+					}
+					every_army_leader = {
+						remove_unit_leader_trait = jap_grinding
+					}
+				}
+			}
+			MAN = {
+				if = {
+					limit = { 
+						any_army_leader = {
+							has_trait = jap_grinding
+						} 
+					}
+					every_army_leader = {
+						remove_unit_leader_trait = jap_grinding
+					}
+				}
+			}
 			declare_war_on = {
 				target = USA
 				type = annex_everything

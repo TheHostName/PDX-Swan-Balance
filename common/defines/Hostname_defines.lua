@@ -197,7 +197,7 @@ NDefines.NNavy.NAVAL_COMBAT_AIR_CONVOY_TARGET_SCORE = 1.0
 NDefines.NNavy.NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE = 5                         -- how much score factor from low health (scales between 0->this number)
 NDefines.NNavy.NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 5                           -- how much score factor from low AA guns (scales between 0->this number)
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 100							-- cost to unassign/replace pride of the fleet
-NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.16 							-- capitals / screens ratio used for creating FEX groups in naval combat
+NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.17 							-- capitals / screens ratio used for creating FEX groups in naval combat
 
 
 

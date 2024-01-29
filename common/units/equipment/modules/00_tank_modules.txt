@@ -102,8 +102,8 @@ equipment_modules = {
 		dismantle_cost_ic = 1
 		xp_cost = 1
 		multiply_stats = {
-			build_cost_ic = 0.15
-			armor_value = 0.5
+			build_cost_ic = 0.25
+			armor_value = 0.4
 		}
 		build_cost_resources = {
 			chromium = 1

@@ -1,0 +1,978 @@
+GER = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = { }
+			models = {
+				"GER_light_sp_anti_air_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_1_entity"
+				"GER_light_tank_destroyer_brigade_0_entity"
+				"GER_light_tank_destroyer_brigade_1_entity"
+			}
+		}
+	}
+	light_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_light_sp_anti_air_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_1_entity"
+				"GER_light_tank_destroyer_brigade_0_entity"
+				"GER_light_tank_destroyer_brigade_1_entity"
+			}
+		}
+	}
+
+	light_tank_artillery_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_light_sp_anti_air_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_1_entity"
+				"GER_light_tank_destroyer_brigade_0_entity"
+				"GER_light_tank_destroyer_brigade_1_entity"
+			}
+		}
+	}
+
+	light_tank_aa_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_light_sp_anti_air_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_1_entity"
+				"GER_light_tank_destroyer_brigade_0_entity"
+				"GER_light_tank_destroyer_brigade_1_entity"
+			}
+		}
+	}
+
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {}
+			models = {
+				"GER_light_sp_anti_air_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_1_entity"
+				"GER_light_tank_destroyer_brigade_0_entity"
+				"GER_light_tank_destroyer_brigade_1_entity"
+			}
+		}
+	}
+
+	light_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_light_sp_anti_air_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_1_entity"
+				"GER_light_tank_destroyer_brigade_0_entity"
+				"GER_light_tank_destroyer_brigade_1_entity"
+			}
+		}
+	}
+
+	light_tank_artillery_chassis_2 = {
+		pool = {
+			icons = { }
+			models = {
+				"GER_light_sp_anti_air_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_0_entity"
+				"GER_light_sp_artillery_brigade_1_entity"
+				"GER_light_tank_destroyer_brigade_0_entity"
+				"GER_light_tank_destroyer_brigade_1_entity"
+			}
+		}
+	}
+	
+	
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = { }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_aa_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = { }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_aa_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {}
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	medium_tank_aa_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_medium_tank_destroyer_brigade_2_entity"
+				"GER_medium_tank_destroyer_brigade_1_entity"
+				"GER_medium_tank_destroyer_brigade_0_entity"
+				"GER_medium_sp_artillery_brigade_2_entity"
+				"GER_medium_sp_artillery_brigade_1_entity"
+				"GER_medium_sp_artillery_brigade_0_entity"
+				"GER_medium_sp_anti_air_brigade_2_entity"
+				"GER_medium_sp_anti_air_brigade_1_entity"
+				"GER_medium_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+	
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_heavy_sp_artillery_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_0_entity"
+				"GER_heavy_tank_destroyer_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_2_entity"
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_heavy_sp_artillery_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_0_entity"
+				"GER_heavy_tank_destroyer_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_2_entity"
+			}
+		}
+	}
+
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {}
+		}
+	}
+
+	heavy_tank_artillery_chassis_2 = {
+		pool = {
+			icons = { GFX_GER_improved_heavy_art_medium }
+			models = {
+				"GER_heavy_sp_artillery_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_0_entity"
+				"GER_heavy_tank_destroyer_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_2_entity"
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_heavy_sp_artillery_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_0_entity"
+				"GER_heavy_tank_destroyer_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_2_entity"
+			}
+		}
+	}
+
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_heavy_sp_artillery_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_0_entity"
+				"GER_heavy_tank_destroyer_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_2_entity"
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_heavy_sp_artillery_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_0_entity"
+				"GER_heavy_tank_destroyer_brigade_1_entity"
+				"GER_heavy_tank_destroyer_brigade_2_entity"
+			}
+		}
+	}
+
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_modern_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+
+	modern_tank_aa_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"GER_modern_sp_anti_air_brigade_0_entity"
+			}
+		}
+	}
+}
+
+ITA = {
+	light_tank_chassis = {
+		pool = {
+			weight = 0.8
+			icons = {}
+			models = {
+				ITA_light_tank_destroyer_brigade_1_entity #Semovente M40 da 47/32 (Improved Light Tank Destroyer)
+				ITA_light_tank_destroyer_brigade_0_entity #L3 CC (Basic Light Tank Destroyer)
+				ITA_light_armor_1_entity #L6/40 (Improved Light Tank)
+			}
+		}
+	}
+	#light_tank_chassis_1 = { #Not needed, already covered by vanilla 2D icons and 3D model
+	#	pool = {
+	#		models = {
+	#			
+	#		}
+	#	}
+	#}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ITA_light_armor_1_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				ITA_light_armor_1_entity
+			}
+		}
+	}
+
+	light_tank_destroyer_chassis = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_light_tank_destroyer_brigade_0_entity
+				ITA_light_tank_destroyer_brigade_1_entity
+			}
+		}
+	}
+	light_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_light_tank_destroyer_brigade_0_entity
+			}
+		}
+	}
+	light_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_light_tank_destroyer_brigade_1_entity
+			}
+		}
+	}
+	#light_tank_destroyer_chassis_3 = { #Not needed, Improved Light TD will be first in lst for this tier anyways
+	#	pool = {
+	#		models = {
+	#
+	#		}
+	#	}
+	#}
+
+	medium_tank_chassis = {
+		pool = {
+			weight = 0.8
+			icons = {}
+			models = {
+				ITA_medium_sp_anti_air_brigade_2_entity #Semovente da 20/70 Quadruplo (Improved Medium SPAA)
+				ITA_medium_sp_artillery_brigade_1_entity #Semovente M40/M41/M42 da 75/18 (Basic Medium SPG)
+				ITA_medium_sp_artillery_brigade_2_entity #Semovente M43 da 105/25 (Imrpoved Medium SPG)
+				ITA_medium_tank_destroyer_brigade_1_entity #Semovente da 75/34 (Improved Medium Tank Destroyer)
+				ITA_medium_tank_destroyer_brigade_2_entity #Semovente da 90/53 (Basic Medium Tank Destroyer) WARNING: WITH BBA THIS MODEL IS USED AS BASIC (instead of Advanced)
+				ITA_medium_armor_1_entity #M16/43 Sahariano (Advanced Medium Tank) WARNING: WITH BBA THIS MODEL IS USED AS ADVANCED (instead of Improved)
+			}
+		}
+	}
+	#medium_tank_chassis_0 = {
+	#	pool = {
+	#		models = {
+	#			
+	#		}
+	#	}
+	#}
+	#medium_tank_chassis_1 = {
+	#	pool = {
+	#		models = {
+	#			
+	#		}
+	#	}
+	#}
+	#medium_tank_chassis_2 = {
+	#	pool = {
+	#		icons = {}
+	#		models = {
+	#		
+	#		}
+	#	}
+	#}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_armor_1_entity
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_tank_destroyer_brigade_2_entity #Semovente da 90/53 (Basic Medium Tank Destroyer) WARNING: WITH BBA THIS MODEL IS USED AS BASIC (instead of Advanced)
+				ITA_medium_tank_destroyer_brigade_1_entity #Semovente da 75/34 (Improved Medium Tank Destroyer)
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_tank_destroyer_brigade_2_entity #Semovente da 90/53 (Basic Medium Tank Destroyer) WARNING: WITH BBA THIS MODEL IS USED AS BASIC (instead of Advanced)
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_tank_destroyer_brigade_1_entity #Semovente da 75/34 (Improved Medium Tank Destroyer)
+			}
+		}
+	}
+	#medium_tank_destroyer_chassis_3 = { #Not required, proper sorting anyways
+	#	pool = {
+	#		icons = {}
+	#		models = {
+	#		
+	#		}
+	#	}
+	#}
+	
+	medium_tank_artillery_chassis = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_sp_artillery_brigade_1_entity #Semovente M40/M41/M42 da 75/18 (Basic Medium SPG)
+				ITA_medium_sp_artillery_brigade_2_entity #Semovente M43 da 105/25 (Imrpoved Medium SPG)
+			}
+		}
+	}
+	medium_tank_artillery_chassis_1 = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_sp_artillery_brigade_1_entity #Semovente M40/M41/M42 da 75/18 (Basic Medium SPG)
+			}
+		}
+	}
+	medium_tank_artillery_chassis_2 = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_sp_artillery_brigade_2_entity #Semovente M43 da 105/25 (Imrpoved Medium SPG)
+			}
+		}
+	}
+	medium_tank_artillery_chassis_3 = {
+		pool = {
+			icons = {}
+			models = {
+			
+			}
+		}
+	}
+
+	medium_tank_aa_chassis = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_sp_anti_air_brigade_2_entity #Semovente da 20/70 Quadruplo (Improved Medium SPAA)
+			}
+		}
+	}
+	#medium_tank_aa_chassis_1 = { #Not required, proper sorting anyways
+	#	pool = {
+	#		icons = {}
+	#		models = {
+	#
+	#		}
+	#	}
+	#}
+	medium_tank_aa_chassis_2 = {
+		pool = {
+			icons = {}
+			models = {
+				ITA_medium_sp_anti_air_brigade_2_entity #Semovente da 20/70 Quadruplo (Improved Medium SPAA)
+			}
+		}
+	}
+	#medium_tank_aa_chassis_3 = { #Not required, proper sorting anyways
+	#	pool = {
+	#		icons = {}
+	#		models = {
+	#
+	#		}
+	#	}
+	#}
+
+	heavy_tank_chassis = {
+		pool = {
+			weight = 0.8
+			icons = {}
+			models = {
+				ITA_heavy_armor_2_entity #P43 (Advanced Heavy Tank)
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				ITA_heavy_armor_2_entity #P43 (Advanced Heavy Tank)
+			}
+		}
+	}
+}
+
+JAP = {
+	light_tank_chassis_1 = {
+		pool = {
+			models = {
+				"JAP_light_armor_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_light_sp_anti_air_brigade_2_entity"
+				"JAP_light_sp_artillery_brigade_2_entity"
+				"JAP_light_tank_destroyer_brigade_2_entity"
+				"JAP_light_armor_0_entity"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_light_armor_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_light_sp_anti_air_brigade_2_entity"
+				"JAP_light_sp_artillery_brigade_2_entity"
+				"JAP_light_tank_destroyer_brigade_2_entity"
+				"JAP_light_armor_0_entity"
+			}
+		}
+	}
+
+	light_tank_aa_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_light_armor_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_light_sp_anti_air_brigade_2_entity"
+				"JAP_light_sp_artillery_brigade_2_entity"
+				"JAP_light_tank_destroyer_brigade_2_entity"
+				"JAP_light_armor_0_entity"
+			}
+		}
+	}
+
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {}
+			models = {
+				"JAP_light_armor_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_light_sp_anti_air_brigade_2_entity"
+				"JAP_light_sp_artillery_brigade_2_entity"
+				"JAP_light_tank_destroyer_brigade_2_entity"
+				"JAP_light_armor_0_entity"
+			}
+		}
+	}
+
+	light_tank_artillery_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_light_armor_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_light_sp_anti_air_brigade_2_entity"
+				"JAP_light_sp_artillery_brigade_2_entity"
+				"JAP_light_tank_destroyer_brigade_2_entity"
+				"JAP_light_armor_0_entity"
+			}
+		}
+	}
+
+	light_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_light_armor_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_light_sp_anti_air_brigade_2_entity"
+				"JAP_light_sp_artillery_brigade_2_entity"
+				"JAP_light_tank_destroyer_brigade_2_entity"
+				"JAP_light_armor_0_entity"
+			}
+		}
+	}
+
+	light_tank_aa_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_light_armor_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_light_sp_anti_air_brigade_2_entity"
+				"JAP_light_sp_artillery_brigade_2_entity"
+				"JAP_light_tank_destroyer_brigade_2_entity"
+				"JAP_light_armor_0_entity"
+			}
+		}
+	}
+
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {}
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {}
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {}
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis_2 = {
+		pool = {
+			icons = { }
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {}
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_medium_armor_2_entity"
+				"JAP_medium_sp_artillery_brigade_0_entity"
+				"JAP_medium_sp_artillery_brigade_1_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_medium_tank_destroyer_brigade_0_entity"
+				"JAP_medium_tank_destroyer_brigade_1_entity"
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_armor_1_entity"
+			}
+		}
+	}
+
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				"JAP_heavy_armor_2_entity"
+				"JAP_heavy_sp_artillery_brigade_0_entity"
+				"JAP_heavy_sp_artillery_brigade_1_entity"
+				"JAP_heavy_tank_destroyer_brigade_0_entity"
+				"JAP_heavy_tank_destroyer_brigade_1_entity"
+				"JAP_heavy_armor_1_entity"
+			}
+		}
+	}
+
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {}
+			models = {
+				"JAP_heavy_armor_2_entity"
+				"JAP_heavy_sp_artillery_brigade_0_entity"
+				"JAP_heavy_sp_artillery_brigade_1_entity"
+				"JAP_heavy_tank_destroyer_brigade_0_entity"
+				"JAP_heavy_tank_destroyer_brigade_1_entity"
+				"JAP_heavy_armor_1_entity"
+			}
+		}
+	}
+
+	heavy_tank_artillery_chassis_1 = {
+		pool = {
+			icons = { }
+			models = {
+				"JAP_heavy_armor_2_entity"
+				"JAP_heavy_sp_artillery_brigade_0_entity"
+				"JAP_heavy_sp_artillery_brigade_1_entity"
+				"JAP_heavy_tank_destroyer_brigade_0_entity"
+				"JAP_heavy_tank_destroyer_brigade_1_entity"
+				"JAP_heavy_armor_1_entity"
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_heavy_armor_2_entity"
+				"JAP_heavy_sp_artillery_brigade_0_entity"
+				"JAP_heavy_sp_artillery_brigade_1_entity"
+				"JAP_heavy_tank_destroyer_brigade_0_entity"
+				"JAP_heavy_tank_destroyer_brigade_1_entity"
+				"JAP_heavy_armor_1_entity"
+			}
+		}
+	}
+
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {}
+			models = {
+				"JAP_heavy_armor_2_entity"
+				"JAP_heavy_sp_artillery_brigade_0_entity"
+				"JAP_heavy_sp_artillery_brigade_1_entity"
+				"JAP_heavy_tank_destroyer_brigade_0_entity"
+				"JAP_heavy_tank_destroyer_brigade_1_entity"
+				"JAP_heavy_armor_1_entity"
+			}
+		}
+	}
+
+	heavy_tank_artillery_chassis_2 = {
+		pool = {
+			icons = {  }
+			models = {
+				"JAP_heavy_armor_2_entity"
+				"JAP_heavy_sp_artillery_brigade_0_entity"
+				"JAP_heavy_sp_artillery_brigade_1_entity"
+				"JAP_heavy_tank_destroyer_brigade_0_entity"
+				"JAP_heavy_tank_destroyer_brigade_1_entity"
+				"JAP_heavy_armor_1_entity"
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = { }
+			models = {
+				"JAP_heavy_armor_2_entity"
+				"JAP_heavy_sp_artillery_brigade_0_entity"
+				"JAP_heavy_sp_artillery_brigade_1_entity"
+				"JAP_heavy_tank_destroyer_brigade_0_entity"
+				"JAP_heavy_tank_destroyer_brigade_1_entity"
+				"JAP_heavy_armor_1_entity"
+			}
+		}
+	}
+
+}

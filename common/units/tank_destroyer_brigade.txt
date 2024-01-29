@@ -177,7 +177,7 @@ sub_units = {
 		suppression = 1.25
 		
 		forest = {
-		    attack = -0.40
+		    attack = -0.50
 			movement = -0.40
 		}
 		hills = {
